@@ -17,33 +17,35 @@
         <hr>
 
         <h2>Informações</h2>
-        <label for="name">Nome</label>
         <input type="checkbox" name="name" id="name">
-        
-        <label for="status">Status</label>
+        <label for="name">Nome</label>
+       
         <input type="checkbox" name="status" id="status">
+        <label for="status">Status</label>
         
-        <label for="species">Espécie</label>
         <input type="checkbox" name="species" id="species">
+        <label for="species">Espécie</label>
         
-        <label for="gender">Gênero</label>
         <input type="checkbox" name="gender" id="gender">
+        <label for="gender">Gênero</label>
         
-        <label for="origin">Planeta de origem</label>
         <input type="checkbox" name="origin" id="origin">
-
-        <label for="episode">Episodio</label>
+        <label for="origin">Planeta de origem</label>
+        
         <input type="checkbox" name="episode" id="episode">
-
-        <label for="image">Foto</label>
-        <input type="checkbox" name="image" id="image">
-
+        <label for="episode">Episodio</label>
+          
         <hr>
 
-        <button id="btn-go">VAI</button>
+        <button type="submit" id="btn-go">Pesquisar</button>
+        <botton type="reset" id="btn-reset">Limpar</botton>
+
     </from>
-    <pre id="content"></pre>
-    <img src="" alt="" id="img">
+
+    <div id="result-style">
+        <img src="" alt="" id="img">
+        <div id="content"></div>
+    </div>
 </body>
 <script src="./script.js"></script>
 </html>
